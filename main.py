@@ -7,6 +7,9 @@ unhurried, ready to move.
 
 Deterministic: the same bytes on every run. No network, standard
 library only.
+
+The text is 179 Unicode code points, inside the gate's 1–280 range,
+and is written verbatim — no trailing newline, no reflow.
 """
 
 import os
